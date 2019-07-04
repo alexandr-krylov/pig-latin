@@ -4,6 +4,10 @@ fn main() {
     println!("{}", s);
 }
 
-fn word_tp_pig_latin(word: String) -> String{
-    String::new()
+fn word_tp_pig_latin(word: &str) -> &str{
+    let dividers = (
+        ' ', '!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-',
+        '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_',
+        '`', '{', '|', '}', '~');
+    word
 }
